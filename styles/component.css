@@ -136,8 +136,7 @@ ul {
 
     padding: 15px 15px 20px 15px;
     height: 639px;
-    /* width: 100vh; */
-    /* max-width: 358px; */
+
 
     display: flex;
     flex-direction: column;
@@ -189,7 +188,7 @@ ul {
 }
 
 .post-content {
-    flex: 1;  /*takes remaining space*/
+    flex: 1;  
 }
 
 .thumbnail-post{
@@ -259,8 +258,6 @@ ul {
     padding-bottom: 16px;
     display: flex;
     justify-content: space-between;
-    /* border: 3px solid red; */
-    /* align-items: center; */
 }
 
 .img-footer-dino{
@@ -365,8 +362,8 @@ ul {
 
         position: absolute;
         top: 90px;
-        left: 50%; /*maketh centerd*/
-        transform: translateX(-50%); /*maketh centerd*/
+        left: 50%; 
+        transform: translateX(-50%); 
     }
 
     .mobile-menu{
@@ -447,10 +444,6 @@ ul {
 
     .hero-section{
         grid-area: hero;
-        /* position: sticky;
-        top: 0px;
-        align-self: start;
-        height: fit-content; */
     }
 
     .main-content{
@@ -479,7 +472,6 @@ ul {
 
     .card-post--wide .thumbnail-post {
         flex: 0.38;
-        /* aspect-ratio: auto; */
     }
 
     .card-post--wide .text-post {
