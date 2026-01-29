@@ -59,6 +59,10 @@ ul {
     list-style-type: none;
 }
 
+.hidden{
+    display: none;
+}
+
 /* =====================
    BUTTONS
 ===================== */
@@ -353,9 +357,6 @@ ul {
 
     /* HAMBURGER MENU MODAL */
 
-    .hidden{
-        display: none;
-    }
     .modal-navmenu-mobile{
         width: 95%;
         border-radius: 15px;
