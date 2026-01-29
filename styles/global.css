@@ -1,0 +1,103 @@
+*, *::before, *::after {
+    box-sizing: border-box;    
+} 
+
+body{
+    margin: 15px 0 0 0;
+    background-color: #F7F4ED;
+    font-family: 'Lora' 'Lato';
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    /* display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        " head "
+        " main "
+        " foot "
+    ; */
+}
+
+header{
+    /* grid-area: head; */
+}
+
+main{
+    /* grid-area: main; */
+    display: grid;
+    gap: 0.937rem;
+    flex: 1;
+    padding-bottom: 50px;
+}
+
+footer{
+    /* grid-area: foot; */
+    background-color: #EFE8DE;
+    padding: 20px 30px 0 30px;
+}
+
+.page-width {
+    width: 95%;
+    max-width: none;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.posts{
+    display: grid;
+    gap: 0.937rem;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+    color: #191919;
+
+    font-family: Lato;
+}
+
+
+h1{
+    font-size: 36px;
+}
+
+h2{
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+h3{
+    font-size: 14px;
+    font-family: Lora;
+    font-weight: 600;
+}
+
+h4{
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/* DESKTOP TYPE SETTINGS */
+@media (min-width: 768px){
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+}
+}

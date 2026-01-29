@@ -1,0 +1,507 @@
+/* =====================
+   NAVBAR
+===================== */
+
+.navigation-bar{
+    width: 95%;
+    color: #191919;
+    background-color: #ABBC72;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.brand{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.brand-icon{
+    width: 24px;
+    height: 24px;
+}
+
+.hamburger-menu{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.hamburger-menu-icon{
+    width: 24px;
+    height: 24px;
+}
+
+.header-title {
+    font-family: Lora;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+nav a {
+    color: #191919;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+/* =====================
+   BUTTONS
+===================== */
+ a {
+    color: #191919;
+    font-family: Lato;
+    font-size: 12px;
+    text-decoration: none;
+ }
+
+.btn {
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 12px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 999px;
+}
+
+.btn-yellow-small {
+    padding: 8px 12px;
+    background-color: #F6DB70;
+}
+
+.btn-pink{
+    padding: 10px 15px;
+    background-color: #F5BCDF;
+}
+
+.btn-blue{
+    padding: 10px 15px;
+    background-color: #B9CCEC;
+}
+
+.btn-yellow{
+    padding: 10px 15px;
+    background-color: #F6DB70;
+}
+
+.icon-double-chevron-down,
+.icon-arrow-diagonal-up {
+    width: 16px;
+    height: 16px;
+}
+
+.duo-horizon-btn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+
+/* =====================
+   HERO
+===================== */
+
+.hero-section .hold-btn-yellow{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.hero-card {
+    background-image: url("../assets/images/hero-img.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+    padding: 15px 15px 20px 15px;
+    height: 639px;
+    /* width: 100vh; */
+    /* max-width: 358px; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 15px;
+
+    border-radius: 15px;
+
+    margin: 15px auto;
+}
+
+.hero-card h1,
+.hero-card p {
+    color: whitesmoke;
+}
+
+.hero-label,
+.label {
+    font-size: 12px;
+    font-weight: 400;
+}
+.label{
+    letter-spacing: 0.25px;
+}
+
+.label-number{
+    font-weight: 600;
+}
+
+/* =====================
+   POST CARD
+===================== */
+
+.posts,
+.card-post,
+.post-content,
+.text-post,
+.desc-n-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-post{
+    background-color: #FFFFFF;
+    padding: 10px 10px 15px 10px;
+    border-radius: 15px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.035);
+}
+
+.post-content {
+    flex: 1;  /*takes remaining space*/
+}
+
+.thumbnail-post{
+    width: 100%;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    border-radius: 15px;
+    flex-shrink: 0;
+}
+
+.thumbnail-post img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-post, 
+.desc-n-btn {
+    width: 100%;
+    padding: 0px 5px;
+}
+
+.desc-n-btn{
+    gap: 15px;
+}
+
+.excerpt {
+    opacity: 85%;
+}
+
+.featured-quotes{
+    padding-bottom: 10px;
+}
+
+/* text btn VIEW MORE */
+.pagination {
+    font-family: Lato;
+    font-weight: 800;
+    text-decoration: underline;
+
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+/* =====================
+   FOOTER
+===================== */
+
+.footer-text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    
+}
+
+.footer-desc{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footer-layout{
+    max-width: none;
+    width: 95%;
+    padding-left: 10px;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 3px solid red; */
+    /* align-items: center; */
+}
+
+.img-footer-dino{
+    height: 34px;
+}
+
+
+/* =====================
+   ABOUT-ME PAGE
+===================== */
+
+
+.profpic-img{
+    width: 175px;
+    height: 175px;
+    border-radius: 15px;
+}
+
+.desktop-only{
+    display: none;
+}
+
+.page-header,
+.about-description{
+    padding: 0 5px;
+}
+
+.page-header, 
+.blog-header {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-top: 20px;
+}
+
+.about-page-title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.subtitle{
+    font-weight: 900;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 25px auto 50px 0;
+    opacity: 90%;
+    max-width: 810px;
+}
+
+.recommended-posts{
+    margin-top: 15px;
+    /* padding-bottom: 50px; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* =====================
+   BLOG TEMPLATE
+===================== */
+.blog-thumbnail .thumbnail-post{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+/* =====================
+   MEDIA QUERY
+===================== */
+
+@media (max-width: 480px){
+    .container{
+        margin: 0 auto;
+    }
+
+    ul {
+        display: none;
+    }
+    .hero-card {
+        max-width: 358px;
+    }
+    .main-content{
+        width: 100%;
+    }
+
+    .featured-quotes .text-post{
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 480px ) {
+    
+    header .navigation-bar{
+        width: 95%;
+        max-width: none;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .hamburger-menu{
+        display: none;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .duo-horizon-btn{
+        width: 50%;
+    }
+    .duo-horizon-btn .btn {
+        flex: 1 1 200px;
+        max-width: 300px;
+        justify-content: center;
+        white-space: nowrap;
+    }
+
+    .duo-horizon-btn .btn-pink,
+    .duo-horizon-btn .btn-blue {
+        width: 188px;
+    }
+    
+}
+
+@media (min-width: 768px){
+    
+    .container--wide{
+        max-width: none;
+    }    
+
+    .main-grid{
+        display: grid;
+        grid-template-columns: 360px 1fr;
+        grid-template-areas:
+            "hero mainc "
+            "hero pagination "
+        ;
+        gap: 1rem;
+    }
+
+    .hero-section{
+        grid-area: hero;
+        /* position: sticky;
+        top: 0px;
+        align-self: start;
+        height: fit-content; */
+    }
+
+    .main-content{
+        grid-area: mainc;
+        margin-top: 15px;
+    }
+
+    .pagination{
+        grid-area: pagination;
+    }
+
+    .btn-yellow-small {
+        display: none;
+    }
+
+    /* POST's CARD LAYOUT */
+    .card-post--wide,
+    .post-content{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .card-post--wide{
+        padding: 10px;
+    }
+
+    .card-post--wide .thumbnail-post {
+        flex: 0.38;
+        /* aspect-ratio: auto; */
+    }
+
+    .card-post--wide .text-post {
+        width: 75%;
+    }
+
+    .featured-quotes .card-post{
+        align-items: end;
+        padding: 20px 10px 15px 10px;
+    }
+
+    .featured-quotes .duo-horizon-btn{
+        padding: 10px 15px 10px 0;
+    }
+
+    /* ABOUT ME PAGE */
+    .page-header{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .desktop-only{
+        display: block;
+    }
+
+    /* BLOG TEMPLATE */
+    .recommended-posts .excerpt {
+        font-size: 15px;
+    }
+
+    /* MY STUDY BLOG */
+
+    .page-header h1{
+        padding-left: 2px;
+    }
+
+    .page-header p {
+        width: 80%;
+        padding: 0 12px;
+    }
+
+    .post-list .card-post{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .post-list .posts{
+        margin: 30px 0;
+    }
+
+    .posts-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px){
+    .actions .btn {
+        flex: 1;
+    }
+}
+
+@media (min-width: 1280px){
+
+}
