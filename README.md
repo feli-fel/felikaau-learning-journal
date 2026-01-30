@@ -6,3 +6,9 @@ My learning focus include:
 1. Structure working file neatly. First through file foldering and secondly through HTML Structure. 
 2. Learn more about flexbox. Experiment using different Flexbox and their properties.
 3. Learn to use CSS grid, specifically grid-template-areas, to create responsive website. 
+
+## Whaat must be done next
+1. Refactoring code
+2. use relative units for text & spacing
+3. input contents
+4. Use JS to create dynamic-maintainable content
