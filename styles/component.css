@@ -308,8 +308,11 @@ ul {
     flex-direction: column;
     gap: 15px;
     margin: 25px auto 50px 0;
-    opacity: 90%;
     max-width: 810px;
+}
+
+.description p{
+        opacity: 90%;
 }
 
 .recommended-posts{
@@ -328,6 +331,11 @@ ul {
     margin-top: 20px;
 }
 
+.img-additional-attachment{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 15px;
+}
 
 /* =====================
    MEDIA QUERY
